@@ -1,10 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8"> -->
     <title>HTML</title>
+	<style>
+		body{
+			margin-left:20px;
+		}
+		.content{
+		text-align:left;
+		width:130px;
+		display:inline-block;
+		}
+		.tips{
+			
+			display:inline-block;
+			width:70px;
+			margin-left:10px;
+		}
+	</style>
+	
 </head>
 <body>
+<p><h1 style="font-family:Simsun;">统一建模语言理论测试</h1></p>
+<p id="info_title1"><span class="tips">考试科目:</span><span class="content">统一建模语言</span>
+<span class="tips">时间：</span><span class="content">100分钟</span><span class="tips">得分：</span><span class="content">100</span></p>
+<p ><span class="tips">班级：</span><span class="content"><input value="1班" class="content"></span>
+<span class="tips">学号：</span><span class="content"><input value="001" class="content"></span>
+<span class="tips">姓名：</span><span class="content"><input value="王小闹"class="content"></span></p>
 
+<p><h2 style="font-family:Simsun;">一、填空题（每空5分，共20分）</h2></p>
+<p style="margin-left:20px"><span>1.UML的中文全称是：<input type="text" value="统一建模语言"></span></p>
+<p style="margin-left:20px"><span>2.对象最突出的特征是：<input type="text" value="封装性" style="margin-left:5px">
+<input type="text" value="继承性" style="margin-left:5px"><input type="text" value="多态性" style="margin-left:5px"></span></p>
+<p><h2 style="font-family:Simsun;">二、选择题（每题10分，共20分）</h2></p>
+<p style="margin-left:20px">1.UML与软件工程的关系是：</p>
+<form>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" value="A" >(A)UML就是软件工程 </span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose"  checked  value="B" >(B)UML参与到软件工程中软件开发过程的几个阶段</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" value="C" >(C)UML与软件工程无关</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" value="D" >(D)UML是软件工程的一部分</span>
+</form>
+<p style="margin-left:20px">2.Java语言支持：</p>
+<form>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" checked value="A">(A)单继承 </span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" value="B" >(B)多继承</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" value="C" >(C)单继承和多继承都支持</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="radio" name="choose" value="D" >(D)单继承和多继承都不支持</span>
+</form>
+<p><h2 style="font-family:Simsun;">三、多选题（每题10分，共20分）</h2></p>
+<p style="margin-left:20px">1.用例的粒度分为以下哪三种：</p>
+<form>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" checked value="A">(A)概述级 </span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" checked value="B" >(B)需求级</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" value="C" >(C)用户目标级</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" checked value="D" >(D)子功能级</span>
+</form>
+<p style="margin-left:20px">2.类图由以下哪三部分组成：</p>
+<form>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" checked value="A">(A)名称(Name) </span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" checked value="B" >(B)属性(Attribute)</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" checked value="C" >(C)操作(Operation)</span>
+<span style="margin:20px 10px 0px 30px;display:block"><input type="checkbox" name="choose" value="D" >(D)方法(Function)</span>
+</form>
+<p><h2 style="font-family:Simsun;">四、判断题（每题10分，共20分）</h2></p>
+<form  style="margin-left:20px">
+1.用例图只是用于客户交流和沟通的，用于确定需求。<input type="radio">√<input type="radio" checked>×
+</form>
+<form  style="margin-left:20px">
+2.在状态图中，终止状态在一个状态图中允许有任意多个。<input type="radio" checked>√<input type="radio">×
+</form >
+<p><h2 style="font-family:Simsun;">五、简答题（每题20分，共20分）</h2></p>
+<p style="margin-left:20px">1.简述什么是模型及模型的表现形式？</p>
+<div style="margin-left:25px;height:150px;width:600px;border:1px black solid;">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或
+概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</div>
+<p><button type="submit">计算分数</button></p>
 </body>
 </html>
